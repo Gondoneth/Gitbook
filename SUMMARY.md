@@ -12,6 +12,7 @@
   * [Rebalance Pool](f-x-protocol/rebalance-pool/README.md)
     * [veFXN Boost Power Shareable Rebalance Pool](f-x-protocol/rebalance-pool/vefxn-boost-power-shareable-rebalance-pool.md)
   * [Stability Mode](f-x-protocol/stability-mode.md)
+  * [FXN Farming](f-x-protocol/fxn-farming.md)
   * [Tokenomics](f-x-protocol/tokenomics.md)
   * [veFXN and Revenue Distribution](f-x-protocol/vefxn-and-revenue-distribution.md)
   * [Summary](f-x-protocol/summary.md)
