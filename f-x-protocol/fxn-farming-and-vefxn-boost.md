@@ -90,14 +90,14 @@ In Example 1, only 4 out of 10 FXN have been distributed, so the remaining 6 FXN
 
 Example 2 (everybody has equal veboost)
 
-| Rebalance Pool Farmer              | Alice         | Bob           |
-| ---------------------------------- | ------------- | ------------- |
-| TVL $                              | 100           | 100           |
-| Maximum Earnable FXN for the epoch | 5             | 5             |
-| veFXN                              | 100           | 100           |
-| Claimable FXN                      | 5 x 0.4 x 2.5 | 5 x 0.4 x 2.5 |
+| Rebalance Pool Farmer              | Alice             | Bob               |
+| ---------------------------------- | ----------------- | ----------------- |
+| TVL $                              | 100               | 100               |
+| Maximum Earnable FXN for the epoch | 5                 | 5                 |
+| veFXN                              | 100               | 100               |
+| Claimable FXN                      | 5 x 0.4 x 2.5 = 5 | 5 x 0.4 x 2.5 = 5 |
 
-\
+All of the 10 FXN have been distributed when everybody has the equal veboost.\
 \
 \
 \
