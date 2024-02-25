@@ -1,6 +1,6 @@
 # FXN Farming and veFXN Boost
 
-The [FXN overall token allocation](https://medium.com/@protocol\_fx\_667/f-x-protocols-tokenomics-offer-a-calculated-journey-towards-success-b97487df41b9) specifies 980,000 FXN tokens (49% of max supply) to be emitted as liquidity incentives over a 50-year period, with the emission rate starting at 100,000 FXN for the first year and declining by 10% (relative) each year thereafter.  Each year is divided into weekly epochs, with a veFXN governance vote determining how that epoch’s FXN will be allocated among the available gauges, the same as in the Curve’s pioneering model.  In the details, however, there are several differences to Curve, driven by technical considerations in the f(x) system.
+The [FXN overall token allocation](https://medium.com/@protocol\_fx\_667/f-x-protocols-tokenomics-offer-a-calculated-journey-towards-success-b97487df41b9) specifies 980,000 FXN tokens (49% of max supply) to be emitted as liquidity incentives over a 50-year period, with the emission rate starting at 98,000 FXN for the first year and declining by 10% (relative) each year thereafter.  Each year is divided into weekly epochs, with a veFXN governance vote determining how that epoch’s FXN will be allocated among the available gauges, the same as in the Curve’s pioneering model.  In the details, however, there are several differences to Curve, driven by technical considerations in the f(x) system.
 
 
 
