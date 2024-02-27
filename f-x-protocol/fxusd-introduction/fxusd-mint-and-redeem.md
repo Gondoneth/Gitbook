@@ -1,0 +1,10 @@
+# FxUSD Mint & Redeem
+
+1. fxUSD is an ETF consisting of fTokens ff‌rxETH and ff‌stETH, with fxUSD exchangeable with fToken at a 1:1 ratio (subject to all fTokens being valued at $1). It must satisfy the equation nfxUSD \* ffxUSD = nffrxETH \* fffrxETH + nfstETH \* ffstETH + nfLSD \* ffLSD, where ffxUSD = fffrxETH = ffstETH = ffLSD = $1.
+2. A cap is set for each fToken in fxUSD. When the cap is reached, the corresponding fToken cannot be minted.
+3. When a user mints fxUSD, they may select the fToken to mint based on the baseToken. It is ensured that the fToken cap in fxUSD is sufficient, and after minting fToken, the Collateral Ratio (CR) is above the warning line. If these conditions are not met, the maximum quantity is minted, and the remaining funds are refunded. If it is not the baseToken, the frontend routes to select the fToken.
+4. When redeeming, fxUSD offers two redemption options: (a) When the user redeems the asset as the baseToken, they redeem using the baseToken. (b) When the user redeems the asset as a non-baseToken, they redeem it into different BaseTokens according to the composition ratio of fxUSD. BaseToken zapout is supported.
+5. If there are rewards during redemption, the user will earn them along with redeeming (when CR < CollateralRatio and rebalance pool = 0, fToken redemption can earn rewards).
+6. If any fToken falls below $1 (not fxUSD below $1), redemption must be done proportionally into BaseTokens according to the composition of fxUSD (the contract can zap into a single asset for the user).
+7. Minting and redeeming fxUSD support Zap in and zap out. Supported zap assets include crvUSD, Frax, USDC, USDT, ETH, frxETH, stETH. When zapping ETH into stETH, Lido submit is directly invoked. When zapping ETH into frxETH, secondary market and submit comparison are needed to obtain the best price.
+8. The fees for minting and redeeming fxUSD are the corresponding [fToken minting and redemption fees](https://docs.aladdin.club/f-x-protocol/fee); fxUSD does not collect additional fees.
