@@ -17,3 +17,7 @@
 #### [Boost Rebalance Pool](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_f\(x\)\_Rebalance\_Pool\_Boost\_Report\_v1.0\_20231213.pdf)
 
 #### [Shareable Rebalance Pool](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_f\(x\)\_Shareable\_RebalancePool\_Report\_20240118.pdf)
+
+#### [fxUSD Report](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_f\(x\)\_FxUSD\_Report\_v1.0\_20240223.pdf)
+
+####
