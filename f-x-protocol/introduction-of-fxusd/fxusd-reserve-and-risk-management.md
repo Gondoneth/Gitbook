@@ -2,7 +2,7 @@
 
 #### The fxUSD Reserve
 
-fxUSD is backed 1:1 by a reserve of $1-pegged stables from whitelisted ETH LSD stable-leverage pairs, beginning at launch with stETH and sfrxETH.  Since the fxUSD reserve is separate from the constituent stable-leverage pairs, stable tokens from whitelisted pairs can exist in its rebalance pool or the fxUSD reserve, but not both.
+fxUSD is backed 1:1 by a reserve of $1-pegged stables from whitelisted ETH LSD stable-leverage pairs, beginning at launch with stETH and frxETH.  Since the fxUSD reserve is separate from the constituent stable-leverage pairs, stable tokens from whitelisted pairs can exist in its rebalance pool or the fxUSD reserve, but not both.
 
 <figure><img src="https://lh7-us.googleusercontent.com/XevGO1klvlS_jL9ifJrMgLnIb2pyyXDmfmKB5tntgwyrch_MITr1IfwCjMq77V5eaygo55joiWIJm60q5q6NyszpckjbZ9S0UqFwIQFpFTnGbqMSIvZAOqgvvdBfTeSKzrH3i26fU3CaU90yaeAWilk" alt=""><figcaption></figcaption></figure>
 
