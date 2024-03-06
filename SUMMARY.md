@@ -7,7 +7,7 @@
     * [The background of FxUSD (Why do we need it?)](f-x-protocol/introduction-of-fxusd/the-background-of-fxusd-why-do-we-need-it.md)
     * [Introduction](f-x-protocol/introduction-of-fxusd/introduction.md)
     * [Summary of FxUSD](f-x-protocol/introduction-of-fxusd/summary-of-fxusd.md)
-    * [Risk Management and fxUSD Reserve](f-x-protocol/introduction-of-fxusd/risk-management-and-fxusd-reserve.md)
+    * [fxUSD Reserve and Risk Management](f-x-protocol/introduction-of-fxusd/fxusd-reserve-and-risk-management.md)
     * [Zaps Simplify UX](f-x-protocol/introduction-of-fxusd/zaps-simplify-ux.md)
   * [What is f(x)?](f-x-protocol/what-is-f-x.md)
   * [Why f(x)?](f-x-protocol/why-f-x.md)
