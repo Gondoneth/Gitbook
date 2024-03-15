@@ -20,7 +20,7 @@
 
 <figure><img src="https://lh6.googleusercontent.com/6pwhQcTesiMRMm4yjVhbrGD-Rdk_VWDAl0LbBwBrpXGR101Pz2EXVbD3tcr33QaT33fXN5125jNnCyt38JIFr4EaOwlkm2IDKAiA79aHPqZlw2ykbRexUS8aQlR9CLpcowENNSlORV896XFg0TIEwhFJH4LvxJX5" alt=""><figcaption></figcaption></figure>
 
-6. Here is our Rebalance Pool. The deposited, unlocking, and unclaimed fETH will be used for rebalance. Unlocking takes 14 days from the last unlocking transaction. For detailed info please refer to [“Rebalance Pool”](rebalance-pool-deprecated.md)
+6. Here is our Stability Pool. The deposited, unlocking, and unclaimed fETH will be used for rebalance. Unlocking takes 14 days from the last unlocking transaction. For detailed info please refer to [“Rebalance Pool”](stability-pool-deprecated.md)
 
 <figure><img src="https://lh4.googleusercontent.com/cBbD9PL5Kpd2HccKa0czDpqhJU6mDamLZFC6seRfomtHYuGNb-U2rmxrGoQUVB_4RnhkfVNIqLBkQVH57ZMdkk1ILPtGPc5dMDPJ5tp8umnEmItfpSkJe9bg1OR1S_XdxlHZzwP3RlIlhBrS4KL-R5o5S415lQRG" alt=""><figcaption></figcaption></figure>
 

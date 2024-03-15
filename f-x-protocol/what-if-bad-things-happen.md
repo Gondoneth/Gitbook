@@ -2,7 +2,7 @@
 
 1. What happens if there’s a huge flash crash in ETH price? &#x20;
 
-In the unlikely (<0.1%; see whitepaper) event of a price crash in ETH that’s so big that the rebalancing pool and minting incentives fail to restabilize the system, the price of xETH can fall to zero \[this is the closest thing to a liquidation on f(x)] and in that case fETH will have sole claim on the reserve. If that happens, the fETH NAV will start following the full price swings of ETH, rather than just 10%.  As always, it would be redeemable.
+In the unlikely (<0.1%; see whitepaper) event of a price crash in ETH that’s so big that the stability pool and minting incentives fail to restabilize the system, the price of xETH can fall to zero \[this is the closest thing to a liquidation on f(x)] and in that case fETH will have sole claim on the reserve. If that happens, the fETH NAV will start following the full price swings of ETH, rather than just 10%.  As always, it would be redeemable.
 
 If this ever were to happen there are provisions for recapitalizing the protocol described in the whitepaper.\
 \

@@ -8,7 +8,7 @@ As the price of the reserve token varies, so too does the amount of base token a
 
 <figure><img src="https://lh7-us.googleusercontent.com/EhqZnMikxz2_Xv_TsbJ3tXqMhjgAp7VHIC1K9jf5VOTLgtxTV_StAqd9YlhiCY_kMYJa3qrfKQhjlgUopgt94pyLOMFmLn6KLS5tUocKjLZBsUDCy3eZaPthiovF8jfCXyiL8u4Eq9LQwbmjJ5kSIY4" alt=""><figcaption></figcaption></figure>
 
-To maintain the stability of the overall system, a “rebalancing pool” is provided. By depositing the stable derivative tokens in the rebalance pool, users can earn a share of the yield from the reserve, i.e. the stETH staking yield. In exchange for this yield the users take a risk: if there is ever too much of the stable token and not enough of the volatile one to absorb volatility, stables from the rebalance pool are redeemed for stETH from the reserve, thus relieving pressure on the volatile token and maintaining the stability of the system. From a user’s perspective, this is equivalent to buying stETH at market price with the stables in the rebalance pool.
+To maintain the stability of the overall system, a “Stability Pool” is provided. By depositing the stable derivative tokens in the rebalance pool, users can earn a share of the yield from the reserve, i.e. the stETH staking yield. In exchange for this yield the users take a risk: if there is ever too much of the stable token and not enough of the volatile one to absorb volatility, stables from the stability pool are redeemed for stETH from the reserve, thus relieving pressure on the volatile token and maintaining the stability of the system. From a user’s perspective, this is equivalent to buying stETH at market price with the stables in the stability pool.
 
 \
 \

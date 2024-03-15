@@ -26,7 +26,7 @@
 | FXN+cvxFXN | 0x1062FD8eD633c1f080754c19317cb3912810B5e5 | 0xfEFafB9446d84A9e58a3A2f2DDDd7219E8c94FbB | dual farm |
 | FXN+sdFXN  | 0x28Ca243dc0aC075dD012fCf9375C25D18A844d96 | 0x5b1D12365BEc01b8b672eE45912d1bbc86305dba | dual farm |
 
-**Rebalance Pool Gauge**
+**Stability Pool Gauge**
 
 | Name    |                Gauge Address               |               Claimer Address              | Notes |
 | ------- | :----------------------------------------: | :----------------------------------------: | ----- |
@@ -85,7 +85,7 @@
 | wstETHWrapper       | 0xb09e34dD25d5E88a1E9Ff6F6418109927675B658 |            |
 | StETHAndxETHWrapper | 0xC2BdBF323304eaBd9260b42E4d0d429Ca3481d6E |            |
 
-**Rebalance Pool**
+**Stability Pool**
 
 * RebalancePoolRegistry: 0x4eEfea49e4D876599765d5375cF7314cD14C9d38
 * RebalancePoolSplitter: 0x79c5f5b0753acE25ecdBdA4c2Bc86Ab074B6c2Bb
