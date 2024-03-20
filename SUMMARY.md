@@ -9,6 +9,7 @@
     * [Summary of FxUSD](f-x-protocol/introduction-of-fxusd/summary-of-fxusd.md)
     * [fxUSD Reserve and Risk Management](f-x-protocol/introduction-of-fxusd/fxusd-reserve-and-risk-management.md)
     * [Zaps Simplify UX](f-x-protocol/introduction-of-fxusd/zaps-simplify-ux.md)
+  * [Introduction of rUSD](f-x-protocol/introduction-of-rusd.md)
   * [What is f(x)?](f-x-protocol/what-is-f-x.md)
   * [Why f(x)?](f-x-protocol/why-f-x.md)
   * [What is Fractional ETH (fETH), and why would I need it?](f-x-protocol/what-is-fractional-eth-feth-and-why-would-i-need-it.md)
