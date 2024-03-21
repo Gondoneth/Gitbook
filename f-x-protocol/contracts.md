@@ -1,13 +1,31 @@
 # Contracts
 
-#### [f(x) protocol](https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#fx-protocol)
+#### f(x) protocol
 
 * [Fx.Governance](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/deployments/mainnet/Fx.Governance.json)
 * [Fx.stETH](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/deployments/mainnet/Fx.stETH.json)
 
 **Governance**
 
-<table><thead><tr><th width="228.66666666666666">Name</th><th align="center">Address</th><th>Notes</th></tr></thead><tbody><tr><td>TokenSale Round1</td><td align="center">0x3eB6Da2d3f39BA184AEA23876026E0747Fb0E17f</td><td></td></tr><tr><td>TokenSale Round2</td><td align="center">0x674A745ADb09c3333D655cC63e2d77ACbE6De935</td><td></td></tr><tr><td>FXN</td><td align="center">0x365AccFCa291e7D3914637ABf1F7635dB165Bb09</td><td></td></tr><tr><td>veFXN</td><td align="center">0xEC6B8A3F3605B083F7044C0F31f2cac0caf1d469</td><td></td></tr><tr><td>TokenMinter</td><td align="center">0xC8b194925D55d5dE9555AD1db74c149329F71DeF</td><td></td></tr><tr><td>GaugeController</td><td align="center">0xe60eB8098B34eD775ac44B1ddE864e098C6d7f37</td><td></td></tr><tr><td>SmartWalletWhitelist</td><td align="center">0xD71B8B76015F296E53D41e8288a8a13eAfFff2ea</td><td></td></tr><tr><td>Vesting FXN</td><td align="center">0x2290eeFEa24A6E43b26C27187742bD1FEDC10BDB</td><td></td></tr><tr><td>ManageableVesting FXN</td><td align="center">0x0E4f31a2f48418c90F5e9fa84Bf761D832C54ceD</td><td></td></tr><tr><td>CvxFxnVestingManager</td><td align="center">0x43fCFe9F128b5e4271c7E25C47eFe91bA8896220</td><td></td></tr><tr><td>SdFxnVestingManager</td><td align="center">0xA2FaffE31153e5E60F2352e3ed28ff973309C156</td><td></td></tr><tr><td>MultipleVestHelper</td><td align="center">0x267b7A1d56d624293Ba1819f30B5bf0F12A524E4</td><td></td></tr><tr><td>ReservePoolV2</td><td align="center">0xb592E01dd77084b36430ffCB9c9D2F76fDE32631</td><td></td></tr></tbody></table>
+| Name                  |                   Address                  | Notes |
+| --------------------- | :----------------------------------------: | ----- |
+| TokenSale Round1      | 0x3eB6Da2d3f39BA184AEA23876026E0747Fb0E17f |       |
+| TokenSale Round2      | 0x674A745ADb09c3333D655cC63e2d77ACbE6De935 |       |
+| FXN                   | 0x365AccFCa291e7D3914637ABf1F7635dB165Bb09 |       |
+| veFXN                 | 0xEC6B8A3F3605B083F7044C0F31f2cac0caf1d469 |       |
+| VotingEscrowHelper    | 0xd766f2b87DE4b08c2239580366e49710180aba02 |       |
+| VotingEscrowBoost     | 0x8Cc02c0D9592976635E98e6446ef4976567E7A81 |       |
+| VotingEscrowProxy     | 0x1145f304d74f3295Fa38b82e7BB8704B0E187FA1 |       |
+| TokenMinter           | 0xC8b194925D55d5dE9555AD1db74c149329F71DeF |       |
+| GaugeController       | 0xe60eB8098B34eD775ac44B1ddE864e098C6d7f37 |       |
+| GaugeControllerOwner  | 0x1Ca7b82c4265835C7841cf29407217D820a7DADb |       |
+| SmartWalletWhitelist  | 0xD71B8B76015F296E53D41e8288a8a13eAfFff2ea |       |
+| Vesting FXN           | 0x2290eeFEa24A6E43b26C27187742bD1FEDC10BDB |       |
+| ManageableVesting FXN | 0x0E4f31a2f48418c90F5e9fa84Bf761D832C54ceD |       |
+| CvxFxnVestingManager  | 0x43fCFe9F128b5e4271c7E25C47eFe91bA8896220 |       |
+| SdFxnVestingManager   | 0xA2FaffE31153e5E60F2352e3ed28ff973309C156 |       |
+| MultipleVestHelper    | 0x267b7A1d56d624293Ba1819f30B5bf0F12A524E4 |       |
+| ReservePoolV2         | 0xb592E01dd77084b36430ffCB9c9D2F76fDE32631 |       |
 
 **Price Oracle**
 
@@ -17,22 +35,32 @@
 | ChainlinkTwapOracleV3 stETH | 0xD24AC180e6769Fd5F624e7605B93084171074A77 | 30min twap |
 | FxStETHTwapOracle           | 0xa84360896cE9152d1780c546305BB54125F962d9 | 30min twap |
 | FxFrxETHTwapOracle          | 0x939c38921c961DecB3cc16f601C32d07C41cd25C | 30min twap |
+| FxEETHTwapOracle            | 0x834E87262A00b0aC38eD49Cb1110838866bE4a20 | 30min twap |
 
 **Liquidity Gauge**
 
-| Name       |                 LP Address                 |                Gauge Address               |   Notes   |
-| ---------- | :----------------------------------------: | :----------------------------------------: | :-------: |
-| ETH+FXN    | 0xE06A65e09Ae18096B99770A809BA175FA05960e2 | 0xA5250C540914E012E22e623275E290c4dC993D11 | dual farm |
-| FXN+cvxFXN | 0x1062FD8eD633c1f080754c19317cb3912810B5e5 | 0xfEFafB9446d84A9e58a3A2f2DDDd7219E8c94FbB | dual farm |
-| FXN+sdFXN  | 0x28Ca243dc0aC075dD012fCf9375C25D18A844d96 | 0x5b1D12365BEc01b8b672eE45912d1bbc86305dba | dual farm |
+| Name         |                 LP Address                 |                Gauge Address               |   Notes   |
+| ------------ | :----------------------------------------: | :----------------------------------------: | :-------: |
+| ETH+FXN      | 0xE06A65e09Ae18096B99770A809BA175FA05960e2 | 0xA5250C540914E012E22e623275E290c4dC993D11 | dual farm |
+| FXN+cvxFXN   | 0x1062FD8eD633c1f080754c19317cb3912810B5e5 | 0xfEFafB9446d84A9e58a3A2f2DDDd7219E8c94FbB | dual farm |
+| FXN+sdFXN    | 0x28Ca243dc0aC075dD012fCf9375C25D18A844d96 | 0x5b1D12365BEc01b8b672eE45912d1bbc86305dba | dual farm |
+| crvUSD+fxUSD | 0x8ffc7b89412efd0d17edea2018f6634ea4c2fcb2 | 0xF4Bd6D66bAFEA1E0500536d52236f64c3e8a2a84 | dual farm |
+| PYUSD+fxUSD  | 0xd6982da59F1D26476E259559508f4135135cf9b8 | 0xeD113B925AC3f972161Be012cdFEE33470040E6a | dual farm |
+| DOLA+fxUSD   | 0x189B4e49B5cAf33565095097b4B960F14032C7D0 | 0x61F32964C39Cca4353144A6DB2F8Efdb3216b35B | dual farm |
+| GRAI+fxUSD   | 0x69Cf42F15F9325986154b61A013da6E8feC82CCF | 0xfa4761512aaf899b010438a10C60D01EBdc0eFcA | dual farm |
+| FRAX+fxUSD   | 0x1EE81c56e42EC34039D993d12410d437DdeA341E | 0x31b630B21065664dDd2dBa0eD3a60D8ff59501F0 | dual farm |
+| GHO+fxUSD    | 0x74345504Eaea3D9408fC69Ae7EB2d14095643c5b | 0xf0A3ECed42Dbd8353569639c0eaa833857aA0A75 | dual farm |
+| mkUSD+fxUSD  | 0xca554e2e2948a211d4650fe0f4e271f01f9cb5f1 | 0xDbA9a415bae1983a945ba078150CAe8b690c9229 | dual farm |
+| ULTRA+fxUSD  | 0xf33ab11e5c4e55dacb13644f0c0a9d1e199a796f | 0x0d3e9A29E856CF00d670368a7ab0512cb0c29FAC | dual farm |
 
-**Stability Pool Gauge**
+**Rebalance Pool Gauge**
 
 | Name    |                Gauge Address               |               Claimer Address              | Notes |
 | ------- | :----------------------------------------: | :----------------------------------------: | ----- |
 | fETH    | 0x9710ca7f3edd4893f399c89ea184d92cc7172e28 | 0x81243a88Dd9Fb963c643bD3f2194c2cA9CCFc428 |       |
 | fstETH  | 0xf422446F7730e50B9CAb4618343425d9927b35ED | 0xCa0563ab14a87ee64d6b097B0dfC46E9B56820aD |       |
 | ffrxETH | 0xB3886b8c94C8635B786b1CA88942337669BB1e1E | 0x4ae3BE52c411CC08434d28645FD391497C69c815 |       |
+| feETH   | 0xf594bDfafE4197144C6459FcA611d7B868d36bEa | 0x835191186745e63f9e325E741B273ff925174d7e |       |
 
 **fxUSD, beta = 0**
 
@@ -71,6 +99,26 @@
 | RebalancePool.xfrxETH       | 0x4a2ab45D27428901E826db4a52Dae00594b68022 |       |
 | LeveragedTokenWrapper       | 0x823BaF74524b707d649A2a78E66DF106f5A131aB |       |
 
+**rUSD, beta = 0**
+
+* rUSD: 0x65D72AA8DA931F047169112fcf34f52DbaAE7D18
+* FxUSDRebalancer: 0x78c3aF23A4DeA2F630C130d2E42717587584BF05
+
+**feETH & xeETH**
+
+| Name                  |                   Address                  | Notes |
+| --------------------- | :----------------------------------------: | ----- |
+| Treasury              | 0x781BA968d5cc0b40EB592D5c8a9a3A4000063885 |       |
+| Market                | 0x267C6A96Db7422faA60Aa7198FfEeeC4169CD65f |       |
+| feETH                 | 0x9216272158F563488FfC36AFB877acA2F265C560 |       |
+| xeETH                 | 0xACB3604AaDF26e6C0bb8c720420380629A328d2C |       |
+| FxInitialFund         | 0x6dc7a100d09DDbF344FC4Dd0398f79500D0c2716 |       |
+| RebalancePoolRegistry | 0xb1dD23468a69DFDDb7211298e609C0DB1522B2D6 |       |
+| RebalancePoolSplitter | 0x015729C84A1C5E541DFbF6f0dDc59AE66527B5eD |       |
+| RebalancePool.weETH   | 0xc2DeF1E39FF35367F2F2a312a793477C576fD4c3 |       |
+| RebalancePool.xeETH   | 0x7EB0ed173480299e1310d55E04Ece401c2B06626 |       |
+| LeveragedTokenWrapper | 0xA9414Ee8b2b2563E70174972FAa2E8B5197Feb5D |       |
+
 **f(x) on stETH, beta = 0.1**
 
 | Name                |                   Address                  | Notes      |
@@ -85,7 +133,7 @@
 | wstETHWrapper       | 0xb09e34dD25d5E88a1E9Ff6F6418109927675B658 |            |
 | StETHAndxETHWrapper | 0xC2BdBF323304eaBd9260b42E4d0d429Ca3481d6E |            |
 
-**Stability Pool**
+**Rebalance Pool**
 
 * RebalancePoolRegistry: 0x4eEfea49e4D876599765d5375cF7314cD14C9d38
 * RebalancePoolSplitter: 0x79c5f5b0753acE25ecdBdA4c2Bc86Ab074B6c2Bb
