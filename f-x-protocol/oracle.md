@@ -28,3 +28,9 @@ For eETH, the price is based on Chainlink TWAP ETH/USD. If Curve weETH/ETH EMA P
 **ezETH Oracle**
 
 For ezETH, the price is based on Chainlink TWAP ETH/USD. If Curve ezETH/ETH EMA Price >  101% OR Curve ezETH/ETH EMA Price < 99%, it initiates a depegging process, and minting with it is (temporarily) disabled. However, redemptions remain enabled (as always), stable-side (rUSD) redemptions use the higher of the two divergent prices (ETH or LSD), and leverage-side (xezETH) redemptions use the lower. When the peg normalizes, minting resumes. This mechanism ensures rUSD and xezETH token holders are protected, and no urgent action is ever needed in the event of a temperory depegging event.
+
+
+
+WBTC Oracle
+
+For WBTC, the price is based on Chainlink TWAP BTC/USD. If Curve WBTC/BTC EMA Price >  101% OR Curve WBTC/BTC EMA Price < 99%, it initiates a depegging process, and minting with it is (temporarily) disabled. However, redemptions remain enabled (as always), stable-side (btcUSD) redemptions use the higher of the two divergent prices (BTC or WBTC), and leverage-side (xWBTC) redemptions use the lower. When the peg normalizes, minting resumes. This mechanism ensures btcUSD and xWBTC token holders are protected, and no urgent action is ever needed in the event of a temperory depegging event.
