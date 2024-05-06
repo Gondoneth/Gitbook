@@ -29,6 +29,7 @@
   * [What if bad things happen?](f-x-protocol/what-if-bad-things-happen.md)
   * [Cross Chain Contracts](f-x-protocol/cross-chain-contracts.md)
   * [Oracle](f-x-protocol/oracle.md)
+  * [New Oracle Mechanisms](f-x-protocol/new-oracle-mechanisms.md)
   * [Contracts](f-x-protocol/contracts.md)
 * [Concentrator](concentrator/README.md)
   * [aCRV(IFO) Vaults](concentrator/acrv-ifo-vaults.md)
