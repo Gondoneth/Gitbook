@@ -39,12 +39,21 @@
 | ------------------------------- | :----------------------------------------: | ---------- |
 | ChainlinkTwapOracleV3 ETH/USD   | 0x460B3CdE57DfbA90DBed02fd83d3990a92DA1230 | 30min twap |
 | ChainlinkTwapOracleV3 stETH/USD | 0xD24AC180e6769Fd5F624e7605B93084171074A77 | 30min twap |
+| FxChainlinkTwapOracle ETH/USD   | 0x2EB56aA6A6E48b142287f723E547c687281580bD | 30min twap |
+| FxChainlinkTwapOracle weETH/ETH | 0x56bC0Ec4049f25E7dd455B64d1c6318c1D9Ce789 | 30min twap |
+| FxChainlinkTwapOracle ezETH/ETH | 0x376669aFa692A2c6961813C854c78542A3488f55 | 30min twap |
 | FxChainlinkTwapOracle BTC/USD   | 0x82012139b29BC5Ac2ff4066832c836122bC6c690 | 30min twap |
 | FxChainlinkTwapOracle WBTC/BTC  | 0xe3202d6029320b6592B439bD67b7E2C154441413 | 30min twap |
 | FxStETHTwapOracle               | 0xa84360896cE9152d1780c546305BB54125F962d9 | 30min twap |
-| FxFrxETHTwapOracle              | 0x939c38921c961DecB3cc16f601C32d07C41cd25C | 30min twap |
-| FxEETHTwapOracle                | 0x834E87262A00b0aC38eD49Cb1110838866bE4a20 | 30min twap |
+| FxFrxETHTwapOracle              | 0x939c38921c961DecB3cc16f601C32d07C41cd25C | deprecated |
+| FxEETHTwapOracle                | 0x834E87262A00b0aC38eD49Cb1110838866bE4a20 | deprecated |
+| FxEzETHTwapOracle               | 0x51Ef9FD457b9607911fB6cB72B9E47ffd5f053a6 | deprecated |
 | FxWBTCTwapOracle                | 0x7e94c07C6C3b2C931E9517529F56553770a7C0D2 | 30min twap |
+| SpotPriceOracle                 | 0xc2312CaF0De62eC9b4ADC785C79851Cb989C9abc |            |
+| FxStETHOracleV2                 | 0x83bDc459Ac3887B2A61aA47DCA3Acac26a333D20 | 30min twap |
+| FxFrxETHOracleV2                | 0xffe563c168C01e05DA4f3d81938AF158466ad793 | 30min twap |
+| FxEETHOracleV2                  | 0xE1B11bb0B6d1b321EEb7e0298A3f9EB92171693B | 30min twap |
+| FxEzETHOracleV2                 | 0x564a464c9C357de593Fa48EfD784048a9e366523 | 30min twap |
 
 **Liquidity Gauge**
 

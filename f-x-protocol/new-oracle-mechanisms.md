@@ -47,8 +47,6 @@ stETH new oracle:&#x20;
 3. [https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8](https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8)
 4. [https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc](https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc)
 
-For more details about basetokens, please refer to: [Details about the Oracles](https://docs.google.com/spreadsheets/d/1GBCoRVEt-JdGJMLbkxx7edFQO49cAxUxMC-l05facrg/edit#gid=0)
-
 Code: [https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198](https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198)
 
 \
