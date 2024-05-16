@@ -40,7 +40,7 @@ stETH new oracle:&#x20;
 4. [stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2) \* **ETH/USD UniV3 Spot**&#x20;
 5. [stETH/ETH Curve2 Spot ](https://curve.fi/#/ethereum/pools/steth/deposit)\* **ETH/USD UniV3 Spot**&#x20;
 
-**ETH/USD UniV3 Spot** have 3 price sources, which are:&#x20;
+**ETH/USD UniV3 Spot** have 4 price sources, which are:&#x20;
 
 1. [ ](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)[https://data.chain.link/feeds/ethereum/mainnet/eth-usd](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)
 2. [https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640](https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640)
