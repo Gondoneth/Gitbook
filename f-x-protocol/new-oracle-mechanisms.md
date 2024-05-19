@@ -35,11 +35,11 @@ xToken redeem at the minimum price
 
 ## stETH New oracle:&#x20;
 
-1. [stETH/ETH Curve EMA](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit) \* [ETH/USD Chainlink TWAP](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)
-2. [stETH/ETH Curve Spot](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit) \* **ETH/USD UniV3 Spot**&#x20;
-3. [stETH/ETH Univ3 Spot](https://info.uniswap.org/#/pools/0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa) \* **ETH/USD UniV3 Spot**&#x20;
-4. [stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2) \* **ETH/USD UniV3 Spot**&#x20;
-5. [stETH/ETH Curve2 Spot ](https://curve.fi/#/ethereum/pools/steth/deposit)\* **ETH/USD UniV3 Spot**&#x20;
+1. \[[stETH/ETH Curve EMA](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit) ]\*\[[ETH/USD Chainlink TWAP](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)]
+2. \[[stETH/ETH Curve Spot](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit)] \* \[**ETH/USD UniV3 Spot** ]
+3. \[[stETH/ETH Univ3 Spot](https://info.uniswap.org/#/pools/0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa)] \*\[ **ETH/USD UniV3 Spot** ]
+4. \[[stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2)] \* \[**ETH/USD UniV3 Spot** ]
+5. \[[stETH/ETH Curve2 Spot\] ](https://curve.fi/#/ethereum/pools/steth/deposit)\* \[**ETH/USD UniV3 Spot ]**
 
 ## frxETH New oracle:&#x20;
 
