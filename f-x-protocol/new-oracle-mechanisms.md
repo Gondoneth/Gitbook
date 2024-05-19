@@ -26,9 +26,9 @@ xToken redeem at the minimum price
 
 
 
-## **ETH/USD UniV3 Spot** have 4 price sources, which are:&#x20;
+## **\[ETH/USD Spot]** have 4 price sources, which are:&#x20;
 
-* [ ](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)[https://data.chain.link/feeds/ethereum/mainnet/eth-usd](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)
+* [https://data.chain.link/feeds/ethereum/mainnet/eth-usd](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)
 * [https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640](https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640)
 * [https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8](https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8)
 * [https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc](https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc)
@@ -36,30 +36,30 @@ xToken redeem at the minimum price
 ## stETH New oracle:&#x20;
 
 1. \[[stETH/ETH Curve EMA](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit) ]\*\[[ETH/USD Chainlink TWAP](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)]
-2. \[[stETH/ETH Curve Spot](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit)] \* \[**ETH/USD UniV3 Spot** ]
-3. \[[stETH/ETH Univ3 Spot](https://info.uniswap.org/#/pools/0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa)] \*\[ **ETH/USD UniV3 Spot** ]
-4. \[[stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2)] \* \[**ETH/USD UniV3 Spot** ]
-5. \[[stETH/ETH Curve2 Spot\] ](https://curve.fi/#/ethereum/pools/steth/deposit)\* \[**ETH/USD UniV3 Spot ]**
+2. \[[stETH/ETH Curve Spot](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit)] \* \[**ETH/USD Spot** ]
+3. \[[stETH/ETH Univ3 Spot](https://info.uniswap.org/#/pools/0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa)] \*\[ **ETH/USD Spot** ]
+4. \[[stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2)] \* \[**ETH/USD Spot** ]
+5. \[[stETH/ETH Curve2 Spot\] ](https://curve.fi/#/ethereum/pools/steth/deposit)\* \[**ETH/USD Spot ]**
 
 ## frxETH New oracle:&#x20;
 
 1. \[[Curve frxETH/WETH EMA](https://curve.fi/#/ethereum/pools/factory-crvusd-15)] \* \[[Chainlink ETH/USD TWAP](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419)]
-2. \[[Curve frxETH/WETH Spot](https://curve.fi/#/ethereum/pools/factory-crvusd-15)] \* \[**ETH/USD UniV3 Spot** ]
-3. \[[Curve frxeth Spot](https://curve.fi/#/ethereum/pools/frxeth)] \* \[**ETH/USD UniV3 Spot** ]
-4. \[[Curve stETH/frxETH Spot](https://curve.fi/#/ethereum/pools/factory-v2-274)] \* \[[Curve steth Spot](https://curve.fi/#/ethereum/pools/steth/deposit)] \* \[**ETH/USD UniV3 Spot** ]
+2. \[[Curve frxETH/WETH Spot](https://curve.fi/#/ethereum/pools/factory-crvusd-15)] \* \[**ETH/USD Spot** ]
+3. \[[Curve frxeth Spot](https://curve.fi/#/ethereum/pools/frxeth)] \* \[**ETH/USD Spot** ]
+4. \[[Curve stETH/frxETH Spot](https://curve.fi/#/ethereum/pools/factory-v2-274)] \* \[[Curve steth Spot](https://curve.fi/#/ethereum/pools/steth/deposit)] \* \[**ETH/USD Spot** ]
 
 ## weETH New oracle:&#x20;
 
 1. \[[RedStone weETH/ETH Twap](https://etherscan.io/address/0x8751F736E94F6CD167e8C5B97E245680FbD9CC36)] \* \[[Chainlink ETH/USD TWAP](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419)]
-2. \[[Uniswap V3 ETH/weETH 0.05%](https://info.uniswap.org/#/pools/0x7a415b19932c0105c82fdb6b720bb01b0cc2cae3)] \* \[**ETH/USD UniV3 Spot** ]/weETH.getRate()
-3. \[[Uniswap V3 wstETH/weETH 0.05%](https://info.uniswap.org/#/pools/0xf47f04a8605be181e525d6391233cba1f7474182)] \*\[wstETH/stETH rate] \* \[ [Curve steth-ng](https://curve.fi/#/ethereum/pools/factory-v2-303)]\* \[**ETH/USD UniV3 Spot** ]
-4. \[[Curve weETH/ETH](https://curve.fi/#/ethereum/pools/factory-stable-ng-22)] \* \[**ETH/USD UniV3 Spot** ]
+2. \[[Uniswap V3 ETH/weETH 0.05%](https://info.uniswap.org/#/pools/0x7a415b19932c0105c82fdb6b720bb01b0cc2cae3)] \* \[**ETH/USD Spot** ]/weETH.getRate()
+3. \[[Uniswap V3 wstETH/weETH 0.05%](https://info.uniswap.org/#/pools/0xf47f04a8605be181e525d6391233cba1f7474182)] \*\[wstETH/stETH rate] \* \[ [Curve steth-ng](https://curve.fi/#/ethereum/pools/factory-v2-303)]\* \[**ETH/USD Spot** ]
+4. \[[Curve weETH/ETH](https://curve.fi/#/ethereum/pools/factory-stable-ng-22)] \* \[**ETH/USD Spot** ]
 
 ## ezETH New oracle:&#x20;
 
 1. \[[RedStone ezETH/ETH Twap](https://etherscan.io/address/0xF4a3e183F59D2599ee3DF213ff78b1B3b1923696)] \* \[[Chainlink ETH/USD TWAP](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419)]
-2. \[[Curve ezETH/ETH](https://curve.fi/#/ethereum/pools/factory-stable-ng-79/deposit)] \* \[**ETH/USD UniV3 Spot** ]
-3. \[[Balancer V2 Stable](https://app.balancer.fi/#/ethereum/pool/0x596192bb6e41802428ac943d2f1476c1af25cc0e000000000000000000000659)] \* \[**ETH/USD UniV3 Spot** ]
+2. \[[Curve ezETH/ETH](https://curve.fi/#/ethereum/pools/factory-stable-ng-79/deposit)] \* \[**ETH/USD Spot** ]
+3. \[[Balancer V2 Stable](https://app.balancer.fi/#/ethereum/pool/0x596192bb6e41802428ac943d2f1476c1af25cc0e000000000000000000000659)] \* \[**ETH/USD Spot** ]
 
 Code: [https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198](https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198)
 
