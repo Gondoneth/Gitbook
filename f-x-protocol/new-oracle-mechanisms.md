@@ -61,6 +61,15 @@ xToken redeem at the minimum price
 2. \[[Curve ezETH/ETH](https://curve.fi/#/ethereum/pools/factory-stable-ng-79/deposit)] \* \[**ETH/USD Spot** ]
 3. \[[Balancer V2 Stable](https://app.balancer.fi/#/ethereum/pool/0x596192bb6e41802428ac943d2f1476c1af25cc0e000000000000000000000659)] \* \[**ETH/USD Spot** ]
 
+## WBTC New oracle:&#x20;
+
+1. \[[Chainlink WBTC/BTC Twap](https://data.chain.link/feeds/ethereum/mainnet/wbtc-btc)] \* \[[Chainlink BTC/USD Twap](https://data.chain.link/feeds/ethereum/mainnet/btc-usd)]
+2. \[WBTC/USDC spot price of [Curve TriCryptoUSDC](https://curve.fi/#/ethereum/pools/factory-tricrypto-0)]
+3. \[[Uniswap V3 WBTC/USDC 0.3% Spot](https://info.uniswap.org/#/pools/0x99ac8ca7087fa4a2a1fb6357269965a2014abc35) ]
+4. \[[Uniswap V3 WBTC/ETH 0.3% Spot](https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed)] \* \[[Uniswap V3 USDC/ETH 0.05% Spot](https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640)]
+
+
+
 Code: [https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198](https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198)
 
 \
