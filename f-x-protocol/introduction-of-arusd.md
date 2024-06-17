@@ -18,7 +18,7 @@ _Advanced DeFi Strategies_
 
 For more savvy DeFi users, arUSD offers a range of advanced options:
 
-_Yield Splitting with Pendle:_
+_Yield Splitting:_
 
 arUSD is ideal for use with Yield platform ie Pendle/Spectra, where it can be split into Principal Tokens (PT) and Yield Tokens (YT).
 
