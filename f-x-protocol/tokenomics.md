@@ -19,4 +19,4 @@ Token Supply: 2,000,000 $FXN\
 
 ## &#x20;                                     FXN Release Schedule
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
