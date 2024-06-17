@@ -20,7 +20,7 @@ For more savvy DeFi users, arUSD offers a range of advanced options:
 
 _Yield Splitting with Pendle:_
 
-arUSD is ideal for use with Pendle, where it can be split into Principal Tokens (PT) and Yield Tokens (YT).
+arUSD is ideal for use with Yield platform ie Pendle/Spectra, where it can be split into Principal Tokens (PT) and Yield Tokens (YT).
 
 PT holders earn fixed yields to maturity plus LP incentives, while YT holders can earn all the yields along with restaking points.
 
@@ -39,8 +39,12 @@ On Layer 2s, users can earn restaking yields and leveraged points with low trans
 **What is the risk?**
 
 \
-As part of f(x)’s risk management mechanisms, liquidations may occur when rUSD goes into stability mode, redeeming rUSD in the stability pool for weETH at the prevailing liquidation price. The liquidated weETH is held in the vault, and converted back to rUSD only when the value of weETH in the vault is 105% of the redeemed rUSD.
+As part of f(x)’s risk management mechanisms, liquidations may occur when rUSD goes into stability mode, redeeming rUSD in the stability pool for weETH at the prevailing liquidation price. The liquidated weETH is held in the vault, and converted back to rUSD only when the value of weETH in the vault is 100% of the redeemed rUSD.
+
+However, it goes a step further by automatically reinvesting earnings to maximise returns and by letting holders accrue up to 6x ether.fi and 2x Eigenlayer points.
+
+
 
 Below is the Summary of arUSD:&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/arUSD (1).png" alt=""><figcaption></figcaption></figure>
