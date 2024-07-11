@@ -9,8 +9,6 @@
 
 **Governance**
 
-
-
 | Name                  |                   Address                  | Notes |
 | --------------------- | :----------------------------------------: | ----- |
 | TokenSale Round1      | 0x3eB6Da2d3f39BA184AEA23876026E0747Fb0E17f |       |
@@ -32,8 +30,6 @@
 | ReservePoolV2         | 0xb592E01dd77084b36430ffCB9c9D2F76fDE32631 |       |
 
 **Price Oracle**
-
-
 
 | Name                            |                   Address                  | Notes      |
 | ------------------------------- | :----------------------------------------: | ---------- |
@@ -58,8 +54,6 @@
 
 **Liquidity Gauge**
 
-
-
 | Name         |                 LP Address                 |                Gauge Address               |   Notes   |
 | ------------ | :----------------------------------------: | :----------------------------------------: | :-------: |
 | ETH+FXN      | 0xE06A65e09Ae18096B99770A809BA175FA05960e2 | 0xA5250C540914E012E22e623275E290c4dC993D11 | dual farm |
@@ -81,8 +75,6 @@
 
 **Rebalance Pool Gauge**
 
-
-
 | Name    |                Gauge Address               |               Claimer Address              | Notes |
 | ------- | :----------------------------------------: | :----------------------------------------: | ----- |
 | fETH    | 0x9710ca7f3edd4893f399c89ea184d92cc7172e28 | 0x81243a88Dd9Fb963c643bD3f2194c2cA9CCFc428 |       |
@@ -94,14 +86,10 @@
 
 **fxUSD, beta = 0**
 
-
-
 * FxUSD: 0x085780639CC2cACd35E474e71f4d000e2405d8f6
 * FxUSDRebalancer: 0x78c3aF23A4DeA2F630C130d2E42717587584BF05
 
 **fstETH & xstETH**
-
-
 
 | Name                  |                   Address                  | Notes |
 | --------------------- | :----------------------------------------: | ----- |
@@ -119,8 +107,6 @@
 
 **ffrxETH & xfrxETH**
 
-
-
 | Name                        |                   Address                  | Notes |
 | --------------------------- | :----------------------------------------: | ----- |
 | Treasury                    | 0xcfEEfF214b256063110d3236ea12Db49d2dF2359 |       |
@@ -137,14 +123,10 @@
 
 **rUSD, beta = 0**
 
-
-
 * rUSD: 0x65D72AA8DA931F047169112fcf34f52DbaAE7D18
 * FxUSDRebalancer: 0x78c3aF23A4DeA2F630C130d2E42717587584BF05
 
 **feETH & xeETH**
-
-
 
 | Name                  |                   Address                  | Notes |
 | --------------------- | :----------------------------------------: | ----- |
@@ -161,31 +143,26 @@
 
 **fezETH & xezETH**
 
-
-
-| Name                  |                   Address                  | Notes |
-| --------------------- | :----------------------------------------: | ----- |
-| Treasury              | 0x38965311507D4E54973F81475a149c09376e241e |       |
-| Market                | 0x69518D1D70AD537C41401303BDf96032338E40dE |       |
-| fezETH                | 0x50B4DC15b34E31671c9cA40F9eb05D7eBd6b13f9 |       |
-| xezETH                | 0x2e5A5AF7eE900D34BCFB70C47023bf1d6bE35CF5 |       |
-| FxInitialFund         | 0x7612bCAbd3D66c71fF740472e063be6a74f126D1 |       |
-| RebalancePoolRegistry | 0x5e3ca2A5736fb093328e4CA19A9A1966025f3905 |       |
-| RebalancePoolSplitter | 0x2755EEbf220BFD31B83Fd9244B6D061bCa225311 |       |
-| RebalancePool.ezETH   | 0xf58c499417e36714e99803Cb135f507a95ae7169 |       |
-| RebalancePool.xezETH  | 0xBa947cba270D30967369Bf1f73884Be2533d7bDB |       |
-| LeveragedTokenWrapper | 0xBeb4289491EBFE8452CfAc8830a6285E42A4742b |       |
+| Name                               |                   Address                  | Notes |
+| ---------------------------------- | :----------------------------------------: | ----- |
+| Treasury                           | 0x38965311507D4E54973F81475a149c09376e241e |       |
+| BalancerV2CachedRateProvider ezETH | 0xE3fF08070aB3aD7eeE7a1cab35105F27DF8EfF10 |       |
+| Market                             | 0x69518D1D70AD537C41401303BDf96032338E40dE |       |
+| fezETH                             | 0x50B4DC15b34E31671c9cA40F9eb05D7eBd6b13f9 |       |
+| xezETH                             | 0x2e5A5AF7eE900D34BCFB70C47023bf1d6bE35CF5 |       |
+| FxInitialFund                      | 0x7612bCAbd3D66c71fF740472e063be6a74f126D1 |       |
+| RebalancePoolRegistry              | 0x5e3ca2A5736fb093328e4CA19A9A1966025f3905 |       |
+| RebalancePoolSplitter              | 0x2755EEbf220BFD31B83Fd9244B6D061bCa225311 |       |
+| RebalancePool.ezETH                | 0xf58c499417e36714e99803Cb135f507a95ae7169 |       |
+| RebalancePool.xezETH               | 0xBa947cba270D30967369Bf1f73884Be2533d7bDB |       |
+| LeveragedTokenWrapper              | 0xBeb4289491EBFE8452CfAc8830a6285E42A4742b |       |
 
 **btcUSD, beta = 0**
-
-
 
 * btcUSD: 0x9D11ab23d33aD026C466CE3c124928fDb69Ba20E
 * FxUSDRebalancer: 0x78c3aF23A4DeA2F630C130d2E42717587584BF05
 
 **fWBTC & xWBTC**
-
-
 
 | Name                  |                   Address                  | Notes |
 | --------------------- | :----------------------------------------: | ----- |
@@ -202,8 +179,6 @@
 
 **f(x) on stETH, beta = 0.1**
 
-
-
 | Name                |                   Address                  | Notes      |
 | ------------------- | :----------------------------------------: | ---------- |
 | fETH                | 0x53805A76E1f5ebbFE7115F16f9c87C2f7e633726 |            |
@@ -218,8 +193,6 @@
 
 **Rebalance Pool**
 
-
-
 * RebalancePoolRegistry: 0x4eEfea49e4D876599765d5375cF7314cD14C9d38
 * RebalancePoolSplitter: 0x79c5f5b0753acE25ecdBdA4c2Bc86Ab074B6c2Bb
 * Gauge: 0x9710ca7f3edd4893f399c89ea184d92cc7172e28
@@ -233,11 +206,9 @@
 
 **Revenue Sharing**
 
-
-
 | Name                  |                   Address                  | Notes      |
 | --------------------- | :----------------------------------------: | ---------- |
-| PlatformFeeSpliter    | 0x0084C2e1B1823564e597Ff4848a88D61ac63D703 |            |
+| PlatformFeeSplitter   | 0x0084C2e1B1823564e597Ff4848a88D61ac63D703 |            |
 | FeeDistributor stETH  | 0x851AAEA3A2757D457E1Ce88C3808C1690213e432 | deprecated |
 | FeeDistributor wstETH | 0xd116513EEa4Efe3908212AfBAeFC76cb29245681 |            |
 
@@ -251,8 +222,6 @@
 
 **fETH**
 
-
-
 * Ethereum ProxyOFT: 0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763
 
 | Chain      | Token Address                              |
@@ -264,8 +233,6 @@
 | Polygon    | 0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763 |
 
 **xETH**
-
-
 
 * Ethereum ProxyOFT: 0x535f7Ca9637A5099DB568b79a3624CFd6B5fc833
 
@@ -279,8 +246,6 @@
 
 **FXN**
 
-
-
 * Ethereum ProxyOFT: 0x808130d89fC067a7a8D9dDF4ca2abf6EB5Ed3B32
 
 | Chain      | Token Address                              |
@@ -290,3 +255,13 @@
 | BSC        | 0xa64f68c089B3E69d48F6047d3Be513349E74b3De |
 | Optimistic | 0xC752C6DaA143e1a0ba3E7Df06f3117182432b991 |
 | Polygon    | 0xC752C6DaA143e1a0ba3E7Df06f3117182432b991 |
+
+**arUSD (4626)**
+
+* Ethereum ProxyOFT: 0xeC4840cD835A1f31E7f77def10Aa7f6bE802E539
+
+| Chain    | Token Address                              |
+| -------- | ------------------------------------------ |
+| Ethereum | 0x07D1718fF05a8C53C8F05aDAEd57C0d672945f9a |
+| Blast    | 0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763 |
+| Linea    | 0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763 |
