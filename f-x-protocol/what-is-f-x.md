@@ -11,4 +11,8 @@ $$
 where $$n_{eth}$$is the number of ETH collateral,  $$p_{eth}$$is ETH’s price in USD,  $$n_f$$is the total supply of fETH,  $$p_f$$is NAV of fETH,  $$n_x$$is the total supply of xETH, $$p_x$$is NAV of xETH.
 
 \
+Now, f(x) continues to grow and support few more features. f(x) splits yield-bearing tokens into two derivative coins: a stable one, and a more volatile one. On the stable side, the headliners are fETH and fxUSD: both stable (one USD-pegged, one that increases or decreases a little with the price of ETH. Holding the high volatility tokens like xETH, xstETH, and others are like holding leverage on the reserve, i.e. leveraged ETH, but with zero funding costs and no individual liquidations.
+
+\
+\
 \
