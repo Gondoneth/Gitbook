@@ -2,6 +2,8 @@
 
 #### CLever <a href="#user-content-clever" id="user-content-clever"></a>
 
+
+
 | Name                   |                   Address                  |
 | ---------------------- | :----------------------------------------: |
 | CLever Treasury        | 0xFC08757c505eA28709dF66E54870fB6dE09f0C5E |
@@ -18,13 +20,23 @@
 
 **CLever for CVX**
 
+
+
 | Name      |                   Address                  |
 | --------- | :----------------------------------------: |
 | clevCVX   | 0xf05e58fCeA29ab4dA01A495140B349F8410Ba904 |
 | CVXLocker | 0x96C68D861aDa016Ed98c30C810879F9df7c64154 |
 | Furnace   | 0xCe4dCc5028588377E279255c0335Effe2d7aB72a |
 
+**CLever for CRV**
+
+
+
+TBD
+
 **CLever for USD**
+
+
 
 | Name                  |                   Address                  |
 | --------------------- | :----------------------------------------: |
@@ -37,6 +49,8 @@
 
 **Strategies**
 
+
+
 | Name                             |                   Address                  |
 | -------------------------------- | :----------------------------------------: |
 | FRAX/USDC Concentrator 100%      | 0xAdC6A89d6Df7374629eA3cFd0737843709d29F66 |
@@ -46,12 +60,16 @@
 
 **Curve Pool Checker**
 
+
+
 | Name              | Address |
 | ----------------- | :-----: |
 | Base Pool Checker |   TBD   |
 | Meta Pool Checker |   TBD   |
 
 **Revenue Sharing**
+
+
 
 | Reward Token |               FeeDistributor               |
 | ------------ | :----------------------------------------: |
@@ -60,6 +78,8 @@
 | CRV          |                     TBD                    |
 
 **Liquidity Gauges**
+
+
 
 | Name                     |                  LP Token                  |                    Gauge                   |
 | ------------------------ | :----------------------------------------: | :----------------------------------------: |
@@ -70,22 +90,32 @@
 
 **Fundraising Gauge**
 
+
+
 * FundraisingGaugeFactoryV1: 0x3abf0BE21E5020007B6e2e201E292a7119bC2b0d
 * FundraisingGaugeV1: 0xB9CD9979718e7E4C341D8D99dA3F1290c908FBdd
 * FundraisingGauge: 0x8A5eF9095795e9740Afc91C5Bd23B0e48d6bB7aE
 
-#### Token Converter <a href="#user-content-token-converter" id="user-content-token-converter"></a>
+#### Token Converter
 
-| Name                  |                   Address                  | Version |
-| --------------------- | :----------------------------------------: | :-----: |
-| ConverterRegistry     | 0xa617206663343b6353acF27566586eE9b53DFb2b |    v1   |
-| GeneralTokenConverter | 0xa3F4fB87e19B60622bEA119C4469c0Df2c7c4739 |    v1   |
-| LidoConverter         | 0x6F862115282037d60C7C185933664178cB3108C7 |    v1   |
-| ConverterRegistry     | 0x997B6F43c1c1e8630d03B8E3C11B60E98A1beA90 |    v2   |
-| GeneralTokenConverter | 0x11C907b3aeDbD863e551c37f21DD3F36b28A6784 |    v2   |
-| LidoConverter         | 0xFFD43edCcec1c27091cB2Aef57b313037E135987 |    v2   |
 
-#### Gateways <a href="#user-content-gateways" id="user-content-gateways"></a>
+
+| Name                  |                   Address                  |     Version    |
+| --------------------- | :----------------------------------------: | :------------: |
+| ConverterRegistry     | 0xa617206663343b6353acF27566586eE9b53DFb2b | v1, deprecated |
+| GeneralTokenConverter | 0xa3F4fB87e19B60622bEA119C4469c0Df2c7c4739 | v1, deprecated |
+| LidoConverter         | 0x6F862115282037d60C7C185933664178cB3108C7 | v1, deprecated |
+| ConverterRegistry     | 0x997B6F43c1c1e8630d03B8E3C11B60E98A1beA90 |       v2       |
+| GeneralTokenConverter | 0x11C907b3aeDbD863e551c37f21DD3F36b28A6784 |       v2       |
+| UniswapV3Converter    | 0xfeEcE010d3a5dC93e395adD89d13c9aDcA872F13 |       v2       |
+| LidoConverter         | 0xFFD43edCcec1c27091cB2Aef57b313037E135987 |       v2       |
+| CurveNGConverter      | 0xDe3eaf9794B9556004bb57239355ED409EFbc477 |       v2       |
+| ETHLSDConverter       | 0x150F62ec3A9d9aE30b7da4d413aF73d8adC15C9f |       v2       |
+| MultiPathConverter    | 0xCa1D3F8f770Fd50b8cF76551ec54012C26036c2A |       v2       |
+
+#### Gateways
+
+
 
 | Name                   |                   Address                  | Notes      |
 | ---------------------- | :----------------------------------------: | ---------- |
@@ -93,14 +123,14 @@
 | ConcentratorGateway    | 0xD069866AceD882582b88E327E9E79Da4c88292B1 |            |
 | Balancer Gauge Gateway | 0xb44f8Ba6CD9FfeE97F8482D064E62Ba55edD4D72 | deprecated |
 | AllInOneGateway        | 0x6e513d492Ded19AD8211a57Cc6B4493C9E6C857B |            |
+| GatewayRouter          | 0xA5e2Ec4682a32605b9098Ddd7204fe84Ab932fE4 |            |
 
-#### Zap Contracts <a href="#user-content-zap-contracts" id="user-content-zap-contracts"></a>
+#### Zap Contracts
+
+
 
 | Name                  |                   Address                  | Notes      |
 | --------------------- | :----------------------------------------: | ---------- |
 | AladdinCRVZap         | 0x5EB30ce188B0abb89A942cED6Cbe114F4d852082 | deprecated |
 | AladdinConvexVaultZap | 0x71Fb0cc62139766383C0F09F1E31375023592841 | deprecated |
 | AladdinZap            | 0x1104b4DF568fa7Af90B1Bed1D78A2F71e748dc8a |            |
-
-\
-\

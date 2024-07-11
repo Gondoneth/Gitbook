@@ -23,3 +23,5 @@
 #### [f(x) Protocol New Oracle Report](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_f\(x\)\_New\_Oracle\_Report\_v1.0\_20240514.pdf)
 
 #### [arUSD Report](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_Concentrator\_arUSD\_Report\_v1.0\_20240618.pdf)
+
+#### [Trail of Bits Audit Report](https://github.com/trailofbits/publications/blob/master/reviews/2024-03-aladdinfxprotocol-securityreview.pdf)

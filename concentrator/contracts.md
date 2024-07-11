@@ -1,6 +1,6 @@
 # Contracts
 
-#### Concentrator <a href="#user-content-concentrator" id="user-content-concentrator"></a>
+#### Concentrator
 
 | Name                   |                   Address                  |
 | ---------------------- | :----------------------------------------: |
@@ -44,6 +44,12 @@
 
 [List of afrxETH vaults](https://github.com/AladdinDAO/deployments/blob/main/pools.concentrator.afrxETH.md)
 
+**Concentrator for Curve-ETH/stETH-LP**
+
+
+
+TBD
+
 **Concentrator for sdCRV**
 
 | Name                          |                   Address                  | Notes      |
@@ -74,11 +80,18 @@
 | CvxCompounder      | 0xb0903Ab70a7467eE5756074b31ac88aEBb8fB777 |       |
 | CvxStakingStrategy | 0x837592b44EE5447074b80Cb21bF37a8c5E4c08f8 |       |
 
+**Concentrator for f(x) protocol**
+
+| Name          |                   Address                  | Notes |
+| ------------- | :----------------------------------------: | ----- |
+| arUSD ERC5115 | 0x549716F858aefF9CB845d4C78c67A7599B0Df240 |       |
+| arUSD ERC4626 | 0x07D1718fF05a8C53C8F05aDAEd57C0d672945f9a |       |
+
 **Revenue Sharing**
 
 | Name                |                   Address                  |
 | ------------------- | :----------------------------------------: |
-| PlatformFeeSpliter  | 0x32366846354db5c08e92b4ab0d2a510b2a2380c8 |
+| PlatformFeeSplitter | 0x32366846354db5c08e92b4ab0d2a510b2a2380c8 |
 | aCRV FeeDistributor | 0xA5D9358c60fC9Bd2b508eDa17c78C67A43A4458C |
 
 | Token Burner               |                   Address                  |    Note   |
