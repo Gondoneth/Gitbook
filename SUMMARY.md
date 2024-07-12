@@ -11,6 +11,7 @@
     * [Zaps Simplify UX](f-x-protocol/introduction-of-fxusd/zaps-simplify-ux.md)
   * [Introduction of rUSD](f-x-protocol/introduction-of-rusd.md)
   * [Introduction of arUSD](f-x-protocol/introduction-of-arusd.md)
+  * [Introduction of cvxUSD/xCVX](f-x-protocol/introduction-of-cvxusd-xcvx.md)
   * [Introduction of btcUSD/xWBTC](f-x-protocol/introduction-of-btcusd-xwbtc.md)
   * [What is f(x)?](f-x-protocol/what-is-f-x.md)
   * [Why f(x)?](f-x-protocol/why-f-x.md)
