@@ -2,10 +2,7 @@
 
 #### f(x) protocol
 
-
-
-* [Fx.Governance](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/deployments/mainnet/Fx.Governance.json)
-* [Fx.stETH](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/deployments/mainnet/Fx.stETH.json)
+[https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#fx-protocol](https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#fx-protocol)
 
 **Governance**
 
