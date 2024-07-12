@@ -88,11 +88,7 @@ The concentrator is built by the experienced and security-obsessed AladdinDAO te
 
 **Concentrator Github?**
 
-{% embed url="https://github.com/AladdinDAO/aladdin-v3-contracts/tree/main/contracts/concentrator" %}
-
-**Deployed Contracts?**
-
-{% embed url="https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#concentrator-for-cvxcrv" %}
+[**https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#concentrator**](https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#concentrator)
 
 **Concentrator** Governance Multisig
 

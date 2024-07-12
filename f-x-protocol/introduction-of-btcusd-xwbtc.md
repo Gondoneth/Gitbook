@@ -6,4 +6,4 @@ The key difference with WBTC is that, since it has no built-in yield, xWBTC hold
 
 The funding rate of xWBTC will simply track the borrowing rate of crvUSD against WBTC. Revenue is treated in the same way as any other reserve yield in f(x); it is divided evenly between the stability pool and the protocol (as revenue). WBTC flowing to the protocol is further subdivided, with 75% being paid to veFXN holders and 25% to the protocol treasury.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

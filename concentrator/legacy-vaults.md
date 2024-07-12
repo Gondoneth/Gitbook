@@ -21,11 +21,3 @@ For example, Alice deposited stETH in Concentrator for a year gained 2.50% of â€
 
 
 
-**Concentrator Github?**
-
-{% embed url="https://github.com/AladdinDAO/aladdin-v3-contracts/tree/main/contracts/concentrator" %}
-
-**Deployed Contracts?**
-
-{% embed url="https://github.com/AladdinDAO/deployments#v3-contracts" %}
-

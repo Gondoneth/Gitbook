@@ -134,3 +134,11 @@ TBD
 | AladdinCRVZap         | 0x5EB30ce188B0abb89A942cED6Cbe114F4d852082 | deprecated |
 | AladdinConvexVaultZap | 0x71Fb0cc62139766383C0F09F1E31375023592841 | deprecated |
 | AladdinZap            | 0x1104b4DF568fa7Af90B1Bed1D78A2F71e748dc8a |            |
+
+**CLever Github**
+
+[https://github.com/AladdinDAO/aladdin-v3-contracts/tree/main/contracts/clever](https://github.com/AladdinDAO/aladdin-v3-contracts/tree/main/contracts/clever)
+
+**Deployed Contracts?**
+
+[https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#clever](https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#clever)

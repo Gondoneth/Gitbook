@@ -16,11 +16,5 @@ Concentrator takes a 10% treasury fee and a 2% harvest fee on yields. The fees w
 
 
 
-**Concentrator Github?**
 
-{% @github-files/github-code-block url="https://github.com/AladdinDAO/aladdin-v3-contracts/pull/117" %}
-
-**Deployed Contracts?**
-
-{% @github-files/github-code-block url="https://github.com/AladdinDAO/deployments/blob/main/deployments.mainnet.md#concentrator-for-cvx" %}
 
