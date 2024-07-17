@@ -68,6 +68,12 @@ xToken redeem at the minimum price
 3. \[[Uniswap V3 WBTC/USDC 0.3% Spot](https://info.uniswap.org/#/pools/0x99ac8ca7087fa4a2a1fb6357269965a2014abc35) ]
 4. \[[Uniswap V3 WBTC/ETH 0.3% Spot](https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed)] \* \[[Uniswap V3 USDC/ETH 0.05% Spot](https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640)]
 
+## CVX  oracle:&#x20;
+
+1. \[[Chainlink CVX/USD Twap](https://data.chain.link/ethereum/mainnet/crypto-usd/cvx-usd)]&#x20;
+2. \[[Chainlink CVX/USD Spot](https://data.chain.link/ethereum/mainnet/crypto-usd/cvx-usd)]&#x20;
+3. \[[Curve CVX/ETH](https://curve.fi/#/ethereum/pools/cvxeth/deposit)] \* \[**ETH/USD Spot** ]
+
 
 
 Code: [https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198](https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198)
