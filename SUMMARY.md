@@ -18,7 +18,7 @@
   * [Why f(x)?](f-x-protocol/why-f-x.md)
   * [What is Fractional ETH (fETH), and why would I need it?](f-x-protocol/what-is-fractional-eth-feth-and-why-would-i-need-it.md)
   * [What is Leveraged ETH (xETH), and why would I need it?](f-x-protocol/what-is-leveraged-eth-xeth-and-why-would-i-need-it.md)
-  * [Fee](f-x-protocol/fee.md)
+  * [Fees](f-x-protocol/fees.md)
   * [Stability Pool（Deprecated）](f-x-protocol/stability-pool-deprecated.md)
   * [Stability Pool](f-x-protocol/stability-pool.md)
   * [Stability Mode](f-x-protocol/stability-mode.md)
