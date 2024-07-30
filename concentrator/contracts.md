@@ -87,6 +87,13 @@ TBD
 | arUSD ERC5115 | 0x549716F858aefF9CB845d4C78c67A7599B0Df240 |       |
 | arUSD ERC4626 | 0x07D1718fF05a8C53C8F05aDAEd57C0d672945f9a |       |
 
+**Concentrator for cvxFXN**
+
+| Name                  |                   Address                  | Notes |
+| --------------------- | :----------------------------------------: | ----- |
+| CvxFxnCompounder      | 0x00Bac667a4cCf9089aB1Db978238C555C4349545 |       |
+| CvxFxnStakingStrategy | 0x2d8B895773B093055919e16d537e3A2295D5eF6c |       |
+
 **Revenue Sharing**
 
 | Name                |                   Address                  |
