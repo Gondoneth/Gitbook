@@ -4,7 +4,7 @@
 
 asdCRV simply represents the compounding sdCRV in the StakeDAO CRV Locker. The total amount of asdCRV contained in the compounder is equal to the total sdCRV balance multiplied by the current index:
 
-asdCRV\_Balance =sdCRV\_Balance \* Current\_sdCRV\_Index
+sdCRV\_Balance =asdCRV\_Balance \* Current\_asdCRV\_Index
 
 Using asdCRV to represent a share of the underlying compounding sdCRV vault simplifies the smart contracts and is more gas efficient.
 
