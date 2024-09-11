@@ -26,4 +26,4 @@
 
 #### [Trail of Bits Audit Report](https://github.com/trailofbits/publications/blob/master/reviews/2024-03-aladdinfxprotocol-securityreview.pdf)
 
-#### [aFXN Report](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/concentrator/asdpendle/audit-reports/SECBIT\_Concentrator\_aFXN\_Report\_v1.0\_20240726.pdf)
+#### [aFXN Report](https://github.com/AladdinDAO/aladdin-v3-contracts/blob/main/audit-reports/SECBIT\_Concentrator\_aFXN\_Report\_v1.0\_20240726.pdf)
