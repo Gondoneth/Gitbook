@@ -8,7 +8,7 @@ Harvest once per epoch (6400 blocks), and automatically bond the farming yields 
 
 $$minerBondald_i= aldSupply((1+\cfrac{minerProfit_i*BondPercent_{vault}}{Reserve_{bond}})^{LR}-1)*Discount_{asset}$$
 
-$$minerProfit_i$$ is farmer i’s total farming yield in the epoch. For example, farmer i gets 100 CRV and 50 LDO (CRV = $4 & LDO = $5) from staking stETH in the Convex vault for the epoch, then total farming yield is = $4_100 + $5_50= $650.
+$$minerProfit_i$$ is farmer i’s total farming yield in the epoch. For example, farmer i gets 100 CRV and 50 LDO (CRV = $4 & LDO = $5) from staking stETH in the Convex vault for the epoch, then total farming yield is = $&#x34;_&#x31;00 + $&#x35;_&#x35;0= $650.
 
 At the end of the epoch, the amount of ALD that farmer will receive is $$minerBondald_i$$, and is auto staked into the staking pool for compounding interests. When $$BondPercent_{vault}$$<100%, $$minerProfit_i*(1-BondPercent_{vault})$$ is no longer entering the Bond Pool, but pays back to farmers.
 
