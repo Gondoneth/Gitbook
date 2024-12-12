@@ -2,14 +2,12 @@
 
 The protocol's revenue sources include Trading fees(Mint/Redeem xPOSITION fee, Rebalance fee, Liquidation fee, Redeem fee), Funding fees (charged during fxUSD depeg), and LSD yields from Basetokens.
 
+### Trading Fees
 
-
-Trading Fees
-
-open/close xPOSITION fees
+Mint/Redeem xPOSITION fees
 
 * Mint/Redeem xPOSITION Fee is set as 0.1% in default
-* Minting of xPOSITION is floating by multiplying the default number 0.1% with a **Ratio**, for each **Step = 5%(Step is a Parameter which can be changed in future governance voting)** increase in AAVE V3 USDC Interest Rate, **Ratio** increased by 1:
+* Fee on Minting of xPOSITION is floating by multiplying the default number 0.1% with a **Ratio**, for each **Step = 5%(Step is a Parameter which can be changed in future governance voting)** increase in AAVE V3 USDC Interest Rate, **Ratio** increased by 1:
 
 <table><thead><tr><th width="164">Step</th><th width="506">AAVE V3 USDC Interest Interval</th><th>Ratio</th></tr></thead><tbody><tr><td>5%</td><td>0% - 10%</td><td>1.00</td></tr><tr><td></td><td>10% - 15%</td><td>2.00</td></tr><tr><td></td><td>15% - 20%</td><td>3.00</td></tr><tr><td></td><td>20% - 25%</td><td>4.00</td></tr><tr><td></td><td>25% - 30%</td><td>5.00</td></tr><tr><td></td><td>...</td><td>...</td></tr></tbody></table>
 
