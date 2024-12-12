@@ -108,7 +108,7 @@ Below is the breakdown of stETH Spot price **Oracle Mechanism**:
 
 ### Conclusion:
 
-* **Min** stETH/USD **Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price **didn't** exceed **threshold**
+* **Mint** stETH/USD **Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price **didn't** exceed **threshold**
 * **Anchor Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price exceeded **threshold**
 * **Max** stETH/USD **Price** is used while Redeeming fxUSD, and the price difference between Anchor Price and Max Price **didn't** exceed **threshold**
 * **Anchor Price** is used while Redeeming fxUSD, and the price difference between Anchor Price and Max Price exceeded **threshold**
