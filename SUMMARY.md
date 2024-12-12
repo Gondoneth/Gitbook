@@ -25,6 +25,7 @@
   * [Security](f-x-protocol-new/security.md)
   * [Tutorial](f-x-protocol-new/tutorial.md)
   * [Resources](f-x-protocol-new/resources.md)
+  * [Fees](f-x-protocol-new/fees.md)
 * [f(x) Protocol](f-x-protocol/README.md)
   * [Introduction of FxUSD](f-x-protocol/introduction-of-fxusd/README.md)
     * [The background of FxUSD (Why do we need it?)](f-x-protocol/introduction-of-fxusd/the-background-of-fxusd-why-do-we-need-it.md)
