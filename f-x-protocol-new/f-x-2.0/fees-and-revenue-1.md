@@ -1,6 +1,6 @@
-# Fees
+# Fees and Revenue
 
-The protocol's revenue sources include Trading fees(Mint/Redeem xPOSITION fee, Rebalance fee, Liquidation fee, Redeem fee), Funding fees (charged during fxUSD depeg), and LSD yields from Basetokens.
+The protocol's revenue sources include **Trading fees**(Mint/Redeem xPOSITION fee, Rebalance fee, Liquidation fee, Redeem fee), **Funding fees** (charged during fxUSD depeg), and **LSD yields** from Basetokens.
 
 ### Trading Fees
 
@@ -29,9 +29,9 @@ Mint/Redeem xPOSITION fees
 
 ### Revenue Distribution
 
-* **Trading Fees**: By default, 70% is allocated to the fxUSD Rebalance Pool (V2).
-* **Funding Fees**: By default, 100% is allocated to the fxUSD Rebalance Pool (V2).
-* **LSD Yields**: By default, 100% is allocated to the fxUSD Rebalance Pool (V2).
+* **Trading Fees**: By default, 70% is allocated to the fxUSD Stability Pool (V2).
+* **Funding Fees**: By default, 100% is allocated to the fxUSD Stability Pool (V2).
+* **LSD Yields**: By default, 100% is allocated to the fxUSD Stability Pool (V2).
 
 The above allocations can be adjusted through governance.
 

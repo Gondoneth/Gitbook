@@ -80,39 +80,39 @@ Code: [https://github.com/AladdinDAO/aladdin-v3-contracts/pull/198](https://gith
 
 ## **Oracle of F(x) 2.0**
 
-Below is the breakdown of stETH Spot price **Oracle Mechanism**:
+The F(x) 2.0 price oracle mechanism for stETH/USD combines multiple data sources, including Chainlink, Uniswap, Curve, and Balancer, to calculate spot prices and anchor prices. It defines **Max** and **Min** **Price** for **stETH/USD** based on these sources and uses a governance-adjustable **threshold** (default 2%) to decide whether to rely on the **Anchor Price** or the **Max/Min Price** for operations like rebalancing, minting, or redeeming. This ensures accurate and stable pricing while accommodating market fluctuations. Below is the detailed breakdown of the **stETH Spot Price** **Oracle Mechanism**:
 
-### \[ETH/USD Spot] oracle:
+### \[ETH/USD Spot] Oracle:
 
 * [https://data.chain.link/feeds/ethereum/mainnet/eth-usd](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)
 * [https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640](https://info.uniswap.org/#/pools/0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640)
 * [https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8](https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8)
 * [https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc](https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc)
 
-### \[stETH/ETH Spot] oracle:
+### \[stETH/ETH Spot] Oracle:
 
 * \[[stETH/ETH Curve Spot](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit)]&#x20;
 * \[[stETH/ETH Univ3 Spot](https://info.uniswap.org/#/pools/0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa)]&#x20;
 * \[[stETH/ETH Balancer Spot](https://app.balancer.fi/#/ethereum/pool/0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2)]&#x20;
 * \[[stETH/ETH Curve2 Spot\]](https://curve.fi/#/ethereum/pools/steth/deposit)&#x20;
 
-### \[stETH/USD] Anchor Price oracle(It is a backup price feed):
+### \[stETH/USD] Anchor Price Oracle(A backup Oracle for the price-checking Mechanism):
 
 * \[[stETH/ETH Curve EMA](https://curve.fi/#/ethereum/pools/factory-v2-303/deposit) ]\*\[[ETH/USD Chainlink Spot](https://data.chain.link/feeds/ethereum/mainnet/eth-usd)]
 
 ### The Algorithm of stETH/USD Max and Min Price:
 
-* Max stETH/USD Price=Max(Anchor Price, \[stETH/ETH Spot Max Price ]\* \[ETH/USD Spot Max Price ])
-* Min stETH/USD Price=Min(Anchor Price, \[stETH/ETH Spot Min Price ]\* \[ETH/USD Spot Min Price ])
+* Max stETH/USD Price = Max(Anchor Price, \[stETH/ETH Spot Max Price ]\* \[ETH/USD Spot Max Price ])
+* Min stETH/USD Price = Min(Anchor Price, \[stETH/ETH Spot Min Price ]\* \[ETH/USD Spot Min Price ])
 
-### Price Checking Mechanism:
+### Here is how the price-checking mechanism works:
 
 * Anchor Price is used, while the price difference between Anchor Price and Max/Min Price exceeded **threshold**
 * **threshold** is an exchangeable parameter in future governance proposals, 2% in default
 
 ### Conclusion:
 
-* **Mint** stETH/USD **Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price **didn't** exceed **threshold**
+* **Min** stETH/USD **Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price **didn't** exceed **threshold**
 * **Anchor Price** is used while Rebalancing, Minting/Redeeming of xPOSITION, and the price difference between Anchor Price and Min Price exceeded **threshold**
 * **Max** stETH/USD **Price** is used while Redeeming fxUSD, and the price difference between Anchor Price and Max Price **didn't** exceed **threshold**
 * **Anchor Price** is used while Redeeming fxUSD, and the price difference between Anchor Price and Max Price exceeded **threshold**
