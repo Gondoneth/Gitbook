@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # f(x) Protocol
 
 ## Abstract
