@@ -1,18 +1,18 @@
-# asdPendle Vaults
+# asdPENDLE Vaults
 
-**What is asdPendle**
+**What is asdPENDLE**
 
-asdPendle represents the compounding sdPendle in the StakeDAO CRV Locker. The total amount of asdPendle contained in the compounder is equal to the total sdPendle balance multiplied by the current index:
+asdPENDLE represents the compounding sdPENDLE in the StakeDAO PENDLE Locker. The total amount of asdPENDLE contained in the compounder is equal to the total sdPENDLE balance multiplied by the current index:
 
-sdPendle\_Balance =asdPendle\_Balance \* Current\_asdPendle\_Index
+sdPENDLE\_Balance =asdPENDLE\_Balance \* Current\_asdPENDLE\_Index
 
-Using asdPendle to represent a share of the underlying compounding sdPendle vault simplifies the smart contracts and is more gas efficient.
+Using asdPENDLE to represent a share of the underlying compounding sdPENDLE vault simplifies the smart contracts and is more gas efficient.
 
-The asdPendle compounder has been upgraded and is now fully liquid, allowing instant withdrawals and further integrations with money market protocols.
+The asdPENDLE compounder has been upgraded and is now fully liquid, allowing instant withdrawals and further integrations with money market protocols.
 
 **What is veSDT delegate**
 
-By delegating veSDT to asdPendle vault, users’ asdPendle reward will be boosted up to 2.5X. Besides, veSDT delegators can share 10% of sdCRV’s bribe rewards.
+By delegating veSDT to asdPENDLE vault, users’ sdPENDLE reward will be boosted up to 2.5X. Besides, veSDT delegators can share 10% of sdPENDLE’s bribe rewards.
 
 **Is it safe?**&#x20;
 
