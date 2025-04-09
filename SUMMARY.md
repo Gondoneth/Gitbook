@@ -59,6 +59,7 @@
   * [New Oracle Mechanisms](f-x-protocol/new-oracle-mechanisms.md)
   * [Contracts](f-x-protocol/contracts.md)
 * [Concentrator](concentrator/README.md)
+  * [asdPendle Vaults](concentrator/asdpendle-vaults.md)
   * [aCRV(IFO) Vaults](concentrator/acrv-ifo-vaults.md)
   * [aFXS Vaults](concentrator/afxs-vaults.md)
   * [afrxETH Vaults](concentrator/afrxeth-vaults.md)
